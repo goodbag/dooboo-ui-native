@@ -98,6 +98,7 @@ const InnerCircleAnim = ({
       },
       easing: Easing.ease,
       duration: 80,
+      useNativeDriver: true,
     }).start();
   }, []);
 
